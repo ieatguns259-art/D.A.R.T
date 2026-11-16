@@ -43,11 +43,11 @@ The app keeps the following in its data folder on your device. None of it is sen
 * Facts the app has remembered about you (from "remember that…" or auto-learn)
 * Your to-do list, reminders, timers, and alarms
 * Custom commands you create
-* Your settings, including the API keys and Spotify credentials you enter
+* Your settings
 * Screenshots you ask it to save
 * A random access token for the remote-control feature (below)
 
-API keys are stored in ordinary configuration files on your PC and are not encrypted, so anyone with access to your Windows account could read them.
+The API keys, Spotify secret and remote-control token you enter are kept in Windows Credential Manager on your PC, which Windows encrypts for your account, rather than in the data folder. Anything running under your Windows account can still read them, so only install software you trust.
 
 ## Remote control
 
